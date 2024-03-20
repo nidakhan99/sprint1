@@ -3,7 +3,7 @@
 
 | Author | Created on | Version | Last updated by | Last edited on |
 | ------ | ---------- | ------- | --------------- | -------------- |
-| Nida Khan    | 19-03-24   | version 1 | Nida Khan         | 19-03-24       |
+| Nida Khan    | 19-03-24   | version 1.2 | Nida Khan         | 19-03-24       |
 
 
 
@@ -116,20 +116,20 @@ git version 2.25.1`
 
 ## Comparison
 
-| Feature              | GitHub                      | Bitbucket                   | GitLab                      |
+|   Feature              |    GitHub                      |    Bitbucket                   | GitLab              |
 |----------------------|-----------------------------|-----------------------------|-----------------------------|
-| Hosting Type         | Cloud, Self-hosted          | Cloud, Self-hosted          | Self-hosted                 |
-| Pricing              | Freemium, Paid Plans        | Freemium, Paid Plans        | Freemium, Paid Plans        |
-| Version Control      | Git                         | Git, Mercurial              | Git                         |
-| Issue Tracking       | Yes                         | Yes                         | Yes                         |
-| Pull Requests        | Yes                         | Yes                         | Yes                         |
-| CI/CD Integration    | Yes                         | Yes                         | Yes                         |
-| Wiki                 | Yes                         | Yes                         | Yes                         |
-| Project Management   | Yes                         | Yes                         | Yes                         |
-| Community Support    | Strong                      | Moderate                    | Strong                      |
-| Popularity           | Very Popular                | Popular                     | Popular                     |
-| Integrations         | Extensive                   | Moderate                    | Extensive                   |
-| Security Features    | Strong                      | Moderate                    | Strong                      |
+| Hosting Type         |   Cloud, Self-hosted       |   Cloud, Self-hosted    |   Self-hosted                 |
+| Pricing              |   Freemium, Paid Plans     |   Freemium, Paid Plans  |   Freemium, Paid Plans        |
+| Version Control      |    Git                     |   Git, Mercurial        |   Git                         |
+| Issue Tracking       |    Yes                     |    Yes                  |   Yes                         |
+| Pull Requests        |    Yes                     |    Yes                  |   Yes                         |
+| CI/CD Integration    |    Yes                     |    Yes                  |   Yes                         |
+| Wiki                 |    Yes                     |    Yes                  |   Yes                         |
+| Project Management   |    Yes                     |    Yes                  |   Yes                         |
+| Community Support    |    Strong                  |    Moderate             | Strong                      |
+| Popularity           |    Very Popular            |    Popular              | Popular                     |
+| Integrations         |    Extensive               |    Moderate             | Extensive                   |
+| Security Features    |    Strong                  |    Moderate             | Strong                      |
 
 
 
@@ -139,7 +139,7 @@ git version 2.25.1`
 ## Contact Information
 |Name	|Email address 📧|
 | --------------- | -------------- |
-|Nida khan|	[nidaabx@gmail.com](https://www.gmail.com/)|
+|Nida khan|	[nida.khan.snaatak@mygurukulam.co](https://www.gmail.com/)|
 
 
 
