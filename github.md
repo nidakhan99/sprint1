@@ -58,7 +58,7 @@ Code hosting is another area that shows how functional GitHub is. You have all t
 
 | License Type | Description | Commercial use | Open Source|
 | ---------- | ------- | --------------- | -------------- |
-| General Public License version 2.0   | Free and open for public use and modification. | YES | YES | 
+| General Public License version 2.0   | Free and open for public use and modification. |  YES  |  YES  | 
 
 
 ## Software Overview
@@ -86,13 +86,6 @@ Code hosting is another area that shows how functional GitHub is. You have all t
 | 80	|It is a standard port for  not secure communication over the internet between client and server.
 
 
-## Dependencies
-### Run-time Dependency
-
-|Run-time Dependency |	Description|
-| ---------- |  --------------- |
-|git client	|GitHub Desktop or Sourcetree
-|Browser	|  Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge.
 
 ## Installation
 
@@ -113,27 +106,6 @@ Code hosting is another area that shows how functional GitHub is. You have all t
 
 Output: `Output
 git version 2.25.1`
-
-## Comparison
-
-|   Feature              |    GitHub                      |    Bitbucket                   | GitLab              |
-|----------------------|-----------------------------|-----------------------------|-----------------------------|
-| Hosting Type         |   Cloud, Self-hosted       |   Cloud, Self-hosted    |   Self-hosted                 |
-| Pricing              |   Freemium, Paid Plans     |   Freemium, Paid Plans  |   Freemium, Paid Plans        |
-| Version Control      |    Git                     |   Git, Mercurial        |   Git                         |
-| Issue Tracking       |    Yes                     |    Yes                  |   Yes                         |
-| Pull Requests        |    Yes                     |    Yes                  |   Yes                         |
-| CI/CD Integration    |    Yes                     |    Yes                  |   Yes                         |
-| Wiki                 |    Yes                     |    Yes                  |   Yes                         |
-| Project Management   |    Yes                     |    Yes                  |   Yes                         |
-| Community Support    |    Strong                  |    Moderate             | Strong                      |
-| Popularity           |    Very Popular            |    Popular              | Popular                     |
-| Integrations         |    Extensive               |    Moderate             | Extensive                   |
-| Security Features    |    Strong                  |    Moderate             | Strong                      |
-
-
-
-
 
 
 ## Contact Information
