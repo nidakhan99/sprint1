@@ -31,7 +31,7 @@ GitHub serves several purposes, acting as a platform for collaboration, version 
 6. **Continuous Integration and Deployment (CI/CD)**: GitHub integrates with CI/CD tools like GitHub Actions and third-party services, enabling developers to automate build, test, and deployment processes. This ensures code quality, reduces manual effort, and accelerates the delivery of software updates.
 
 
-7. Project Management: GitHub offers project management tools such as project boards, milestones, and issue trackers to help teams organize and prioritize their work. These tools facilitate task tracking, bug fixing, and feature implementation throughout the software development lifecycle.
+7. **Project Management**: GitHub offers project management tools such as project boards, milestones, and issue trackers to help teams organize and prioritize their work. These tools facilitate task tracking, bug fixing, and feature implementation throughout the software development lifecycle.
 
 
 ## Key feature & functionality
