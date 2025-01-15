@@ -19,7 +19,7 @@ This document provides a step-by-step guide for deploying Dynatrace on Kubernete
 ## Section 1: Manage Deployment Status - Install ActiveGates
 
 ### Instructions:
-1. Follow the steps outlined for installing ActiveGates on your instance.
+1. Follow the steps outlined for installing ActiveGates on your instance.But if already your infra has active gates you can skip this step.
 
 ---
 
