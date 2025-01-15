@@ -50,10 +50,7 @@ This document provides a step-by-step guide for deploying Dynatrace on Kubernete
    ```bash
    kubectl apply -f dynakube.yaml
    ```
-3. Create a Kubernetes secret for the API token:
-   ```bash
-   kubectl -n dynatrace create secret generic dynakube --from-literal="apiToken=hhwdude"
-   ```
+
 
 #### Final Steps:
 1. Go to the **Kubernetes** section in Dynatrace by searching for "Kubernetes" in the search bar.
