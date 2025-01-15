@@ -19,7 +19,7 @@ This document provides a step-by-step guide for deploying Dynatrace on Kubernete
 ## Section 1: Manage Deployment Status - Install ActiveGates
 
 ### Instructions:
-1. Follow the steps outlined for installing ActiveGates on your instance.But if already your infra has active gates you can skip this step.
+1. Follow the steps outlined for installing ActiveGates on your instance.
 
 ---
 
@@ -35,27 +35,38 @@ This document provides a step-by-step guide for deploying Dynatrace on Kubernete
 2. **Cluster Setup:**
    - Provide a unique **Cluster Name**.
    - Specify a **Group Name**.
-   - Enable **SSL Check**.(optinal)
+   - Enable **SSL Check**.
 3. Download the `dynakube.yaml` configuration file.
 
 #### Deployment Commands:
-1. Use Helm to install the Dynatrace operator:
+1. Create the namespace for Dynatrace:
    ```bash
-   helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator \
-       --create-namespace \
-       --namespace dynatrace \
-       --atomic
+   kubectl create namespace dynatrace
    ```
-2. Apply the downloaded configuration file:
+2. Label the namespace for Dynatrace injection:
    ```bash
-   kubectl apply -f dynakube.yaml
+   kubectl label namespace docs-kube-prod dynatrace.com/inject=true
    ```
-
+3. Apply the Dynatrace operator:
+   ```bash
+   kubectl apply -f https://github.com/Dynatrace/dynatrace-operator/releases/download/v1.4.0/kubernetes.yaml
+   ```
+4. Wait for the operator webhook to be ready:
+   ```bash
+   kubectl -n dynatrace wait pod --for=condition=ready --selector=app.kubernetes.io/name=dynatrace-operator,app.kubernetes.io/component=webhook --timeout=300s
+   ```
+5. Apply the Dynakube configuration file:
+   ```bash
+   kubectl apply -f dynakube_application.yaml
+   ```
+6. Create a Kubernetes secret for the API token:
+   ```bash
+   kubectl -n dynatrace create secret generic dynakube --from-literal="apiToken=YOUR_API_TOKEN"
+   ```
 
 #### Final Steps:
 1. Go to the **Kubernetes** section in Dynatrace by searching for "Kubernetes" in the search bar.
 2. Wait for the cluster to appear in the Dynatrace interface.
-3. Check for one-agent status.( 4 pods must be present)
 
 ---
 
