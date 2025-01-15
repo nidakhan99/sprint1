@@ -35,7 +35,7 @@ This document provides a step-by-step guide for deploying Dynatrace on Kubernete
 2. **Cluster Setup:**
    - Provide a unique **Cluster Name**.
    - Specify a **Group Name**.
-   - Enable **SSL Check**.
+   - Enable **SSL Check**.(optinal)
 3. Download the `dynakube.yaml` configuration file.
 
 #### Deployment Commands:
