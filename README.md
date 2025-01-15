@@ -55,6 +55,7 @@ This document provides a step-by-step guide for deploying Dynatrace on Kubernete
 #### Final Steps:
 1. Go to the **Kubernetes** section in Dynatrace by searching for "Kubernetes" in the search bar.
 2. Wait for the cluster to appear in the Dynatrace interface.
+3. Check for one-agent status.( 4 pods must be present)
 
 ---
 
